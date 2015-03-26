@@ -28,8 +28,9 @@
   <?php endif; ?>
   
   <?php
-  	$myPagination = new NewsreaderPagination;
-  	$myPagination->addPrevNext($this->id, $this->pid);
+  $myPagination = new NewsreaderPagination;
+  $myPagination->addPrevNext($this->id, $this->pid);
+  
   ?>
 
 </div>
